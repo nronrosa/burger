@@ -1,7 +1,21 @@
+<div>
+	{{name}}
+	<button class="btn 
+		{{#if devoured}}
+		btn-primary
+		{{else}}
+		btn-danger
+		{{/if}} 
+		change-eat" 
+		data-id="{{id}}" 
+		data-newdevoured="{{devoured}}">
+			{{#if devoured}}
+			Devoured!
+			{{else}}
+			Order More!
+			{{/if}}
+	</button>
 
-	<li>
-		{{name}} 
-		<button class="change-eat" data-id="{{id}}" data-newdevoured="{{devoured}}">
-			{{#if devoured}}Devoured!{{/if}}
-		</button>
-	</li>
+	
+
+</div>

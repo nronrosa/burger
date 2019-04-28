@@ -1,0 +1,9 @@
+.background {
+    background-image: url("../images/burgerbackgr.jpg");
+    background-size: cover;  
+}
+
+body {
+    font-family: 'Carter One', cursive;
+    color: whitesmoke;
+}
