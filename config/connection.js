@@ -10,7 +10,7 @@ var connection = mysql.createConnection({
 });
 
 // Make connection.
-connection.connect(function(err) {
+connection.connect(function (err) {
   if (err) {
     console.error("error connecting: " + err.stack);
     return;
@@ -20,4 +20,3 @@ connection.connect(function(err) {
 
 // Export connection for our ORM to use.
 module.exports = connection;
-    

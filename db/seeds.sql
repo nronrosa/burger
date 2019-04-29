@@ -1,7 +1,7 @@
 -- Burger Seed file
 INSERT INTO burgers (burger_name) 
-VALUES ("bacon cheeseburger");
+VALUES ("BACON CHEESEburger");
 INSERT INTO burgers (burger_name) 
-VALUES ("black bean burger");
+VALUES ("BLACKBEAN burger");
 INSERT INTO burgers (burger_name) 
-VALUES ("chicken burger");
+VALUES ("CHICKEN burger");

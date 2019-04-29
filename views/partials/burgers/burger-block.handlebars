@@ -1,21 +1,18 @@
-<div>
+<div class="burger-list">
 	{{name}}
 	<button class="btn 
 		{{#if devoured}}
-		btn-primary
+			btn-primary
 		{{else}}
-		btn-danger
+			btn-danger
 		{{/if}} 
-		change-eat" 
+			change-eat" 
 		data-id="{{id}}" 
 		data-newdevoured="{{devoured}}">
 			{{#if devoured}}
-			Devoured!
+				Devour it!
 			{{else}}
-			Order More!
+				Order More!
 			{{/if}}
 	</button>
-
-	
-
 </div>
